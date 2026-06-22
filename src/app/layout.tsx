@@ -91,11 +91,8 @@ export default function RootLayout({
 					content='XXXXXXXXXXXXXX' // Replace with your Google Search Console verification code
 				/>
 				{/* AdSense */}
-				<Script
-					strategy='afterInteractive'
-					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3965387646604716' // Replace with your AdSense ID
-					crossOrigin='anonymous'
-				/>
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3965387646604716"
+     crossorigin="anonymous"></script>
 			</head>
       <body className="font-sans antialiased bg-background text-foreground flex flex-col min-h-screen">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
