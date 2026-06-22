@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
-import Header from "@/components/header";
-import Footer from "@/components/footer";
+import { AppNavbar } from '@/components/AppNavbar'
+import { Footer } from '@/components/Footer'
 import "./globals.css";
 import {
 	SITE_AUTHOR,
@@ -93,7 +93,7 @@ export default function RootLayout({
 					attribute='class'
 					defaultTheme='dark'
 					enableSystem>
-					<Header />
+					<AppNavbar />
 					<main className='pt-20 grow'>{children}</main>
 					<Footer />
 				</ThemeProvider>
