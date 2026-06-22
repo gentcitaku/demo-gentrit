@@ -1,7 +1,7 @@
-export const SITE_URL = "https://financecalculator.deelzo.com";
-export const SITE_NAME = "Finance Calculator";
-export const SITE_TITLE = "Finance Calculator - Calculate Loans, Investments, and More";
+export const SITE_URL = "https://www.storytimehub.org";
+export const SITE_NAME = "Story Calculator";
+export const SITE_TITLE = "Story Calculator - Calculate Loans, Investments, and More";
 export const SITE_DESCRIPTION =
 	"Free online finance calculator. Calculate loans, investments, and more instantly. No registration required.";
-export const SITE_AUTHOR = "Deelzo";
-export const SITE_EMAIL = "amitkumarteam90@gmail.com";
+export const SITE_AUTHOR = "Storytimehub";
+export const SITE_EMAIL = "gpmedia65@gmail.com";
