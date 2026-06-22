@@ -88,11 +88,10 @@ export default function RootLayout({
 				{/* Google Search Console */}
 				<meta
 					name='google-site-verification'
-					content='0_oHutSL8uJkY0QSrnPYHvAct-BxnaoxFIxyGCZ1IPg' // Replace with your Google Search Console verification code
-				/>
+					content='0_oHutSL8uJkY0QSrnPYHvAct-BxnaoxFIxyGCZ1IPg' />
 				{/* AdSense */}
 				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3965387646604716"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous" />
 			</head>
       <body className="font-sans antialiased bg-background text-foreground flex flex-col min-h-screen">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
