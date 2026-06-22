@@ -72,6 +72,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head suppressHydrationWarning>
+		  <meta name="google-adsense-account" content="ca-pub-3965387646604716">
 				{/* Google Analytics */}
 				<Script
 					strategy='afterInteractive'
